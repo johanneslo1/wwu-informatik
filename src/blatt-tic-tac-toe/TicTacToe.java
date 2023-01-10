@@ -104,42 +104,6 @@ public class TicTacToe {
     // ------------------------------------------------------------------------------------------------ //
 
     public static void main(String[] args) {
-        TicTacToe ttt = new TicTacToe();
 
-        // DER CODE KANN AUSKOMMENTIERT WERDEN SOBALD AUFGABE A BEARBEITET WURDE
-
-		System.out.println("\n--- Spiel 1 ---\n");
-		ttt.play(1, 1);
-		ttt.play(0, 1);
-		ttt.play(2, 0);
-		ttt.play(0, 2);
-		ttt.play(2, 2);
-		ttt.play(2, 1);
-		ttt.play(0, 0);
-		ttt.resetGame();
-
-		System.out.println("\n--- Spiel 2 ---\n");
-		ttt.play(0, 1);
-		ttt.play(0, 0);
-		ttt.play(2, 1);
-		ttt.play(1, 1);
-		ttt.play(0, 2);
-		ttt.play(2, 1);
-		ttt.play(1, 0);
-		ttt.play(2, 0);
-		ttt.play(1, 2);
-		ttt.resetGame();
-
-		System.out.println("\n--- Spiel 3 ---\n");
-		ttt.play(2, 2);
-		ttt.play(0, 0);
-		ttt.play(1, 2);
-		ttt.play(0, 2);
-		ttt.play(0, 1);
-		ttt.play(1, 0);
-		ttt.play(2, 0);
-		ttt.play(2, 1);
-		ttt.play(1, 1);
-		ttt.resetGame();
     }
 }
